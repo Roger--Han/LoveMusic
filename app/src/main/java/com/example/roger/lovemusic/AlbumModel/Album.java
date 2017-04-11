@@ -34,6 +34,12 @@ public class Album {
         this.thumbnail = thumbnail;
     }
 
+    // Constructor
+    public Album(String name, int numOfSongs, int thumbnail){
+        this.name = name;
+        this.numOfSongs = numOfSongs;
+        this.thumbnail = thumbnail;
+    }
 
 
 }
